@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一郵捷–全方位海空運規劃、進出口整櫃/併箱、貨物報關、卡車運輸服務</title>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="../output.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Flag Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
+    
+</head>
+<body>
+  <!-- Main + Service Section -->
+  <section id="bg1">
+    <!-- Navbar -->
+    <header class="sticky inset-x-0 top-0 flex flex-wrap w-full py-3 text-sm border-b border-gray-200 lg:justify-start lg:flex-nowrap bg-white/50 backdrop-blur-md lg:py-0 z-100">
+      <nav class="relative w-full px-4 mx-auto max-w-7xl md:flex md:items-center md:justify-between lg:px-36" aria-label="Global">
+        <!-- Logo & 漢堡選單 -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <a class="" href="../index.html" aria-label="Brand">
+            <img src="../img/Logo-L.png" class="hidden object-contain xl:block md:h-16" alt="">
+            <img src="../img/Logo-S.png" class="object-contain w-3/4 h-10 xl:hidden sm:w-fit" alt="">
+          </a>
+
+          <!-- 漢堡選單 -->
+          <div class="md:hidden">
+            <button type="button" class="inline-flex items-center justify-center gap-2 p-2 text-sm font-medium text-gray-700 align-middle transition-all bg-blue-500 border rounded-md shadow-sm hs-collapse-toggle hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+              <svg class="w-4 h-4 hs-collapse-open:hidden" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              <svg class="hidden w-4 h-4 hs-collapse-open:block" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+        <!-- 按鈕 -->
+        <div id="navbar-collapse-with-animation" class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow md:block">
+          <div class="flex flex-col py-4 mt-5 gap-y-4 gap-x-0 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
+
+            <!-- 關於我們 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="nav__BTN">
+                關於我們
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
+              </button>
+
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                <a class="nav__SubBTN" href="../dist/about.html">
+                  公司介紹
+                </a>
+
+                <a class="nav__SubBTN" href="../dist/affiliated.html">
+                  關係企業
+                </a>
+                <a class="nav__SubBTN" href="../dist/client.html">
+                  集團客戶
+                </a>
+              </div>
+            </div>
+            <!-- 最新消息 -->
+            <a class="nav__BTN" href="../dist/news.html">最新消息</a>
+            <!-- 服務項目 -->
+            <a class="nav__BTN" href="../dist/service.html">服務項目</a>
+            <!-- 聯絡我們 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="font-medium text-blue-500 whitespace-nowrap">
+                聯絡我們
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
+              </button>
+
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                <a class="nav__SubBTN" href="../dist/taiwan.html">
+                  臺灣據點
+                </a>
+
+                <a class="nav__SubBTN" href="../dist/world.html">
+                  全球據點
+                </a>
+                <a class="nav__SubBTN" href="../dist/contact.html">
+                  線上留言
+                </a>
+              </div>
+            </div>
+
+            <!-- 語言選擇 -->
+            <div class="flex items-center md:order-2">
+              <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white transition duration-300 ease-in-out bg-blue-500 rounded-full cursor-pointer hover:bg-blue-600">
+                <div class="flex items-center w-5 h-5 mr-2 overflow-hidden rounded-full ">
+                  <span class="scale-150 fi fi-tw"></span>
+                </div>
+                中文 (繁體)
+              </button>
+              <!-- Dropdown -->
+              <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow " id="language-dropdown-menu">
+                <ul class="py-2 font-medium" role="none">
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-us scale-[1.4]"></span>
+                        </div>              
+                        English (US)
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-tw scale-[1.4]"></span>
+                        </div> 
+                        中文 (繁體)
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-cn scale-[1.4]"></span>
+                        </div> 
+                        中文 (簡體)
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Banner -->
+    <div class="" id="banner3"></div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section class="relative" id="bg3">
+    <!-- Wave -->
+    <div class="absolute w-full -top-10 md:-top-12">
+      <svg class="relative w-full h-12 " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.8)" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.6)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.4)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,0.2)" />
+      </g>
+      </svg>
+    </div>
+
+    <!-- Content -->
+    <div class="section">
+      <!-- Title -->
+      <div class="flex flex-col gap-y-1 sm:gap-y-3">
+        <p class="text-sm font-semibold text-blue-600 md:text-lg">
+          Contact Us
+        </p>
+        <h1 class="text-xl md:text-5xl">線上留言</h1>
+      </div>
+
+      <!-- Content -->
+      <div class="grid md:grid-cols-2 md:gap-6 lg:gap-10 ">
+
+        <!-- Form + BTN -->
+        <div class="flex flex-col order-1 gap-8 sm:gap-10 sm:order-2 ">
+          <!-- Form -->
+          <div class="flex flex-col gap-4 sm:gap-6 ">
+            <!-- 公司名稱 -->
+            <div>
+              <label for="hs-leading-icon" class="block mb-2 md:text-xl">公司名稱<span class="pl-1 text-red-500">*</span></label>
+              <div class="relative">
+                <input type="text" id="hs-leading-icon" name="hs-leading-icon" class="block w-full px-4 py-3 text-sm placeholder-gray-400 border-gray-300 rounded-lg pl-11 bg-gray-50 focus:z-10 focus:border-blue-500 focus:ring-blue-500 " placeholder="請輸入公司名稱">
+                <div class="absolute inset-y-0 left-0 z-20 flex items-center pl-4 text-gray-500 pointer-events-none">
+                  <i class="fa-solid fa-building"></i>
+                </div>
+              </div>
+            </div>
+            <!-- 姓名 -->
+            <div>
+              <label for="hs-leading-icon" class="block mb-2 md:text-xl">姓名<span class="pl-1 text-red-500">*</span></label>
+              
+              <div class="flex items-center gap-4">
+                <!-- Input -->
+                <div class="relative w-full">
+                  <input type="text" id="hs-leading-icon" name="hs-leading-icon" class="block w-full px-4 py-3 text-sm placeholder-gray-400 border-gray-300 rounded-lg pl-11 bg-gray-50 focus:z-10 focus:border-blue-500 focus:ring-blue-500 " placeholder="請輸入姓名">
+                  <div class="absolute inset-y-0 left-0 z-20 flex items-center pl-4 text-gray-500 pointer-events-none">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                </div>
+
+                <!-- Gender -->
+                <div class="flex gap-3 md:gap-4">
+                  <div class="flex">
+                    <input type="radio" name="hs-radio-vertical-group" class="shrink-0 mt-0.5 border-gray-200 rounded-full text-blue-600 focus:ring-blue-500" checked>
+                    <label for="hs-radio-vertical-group-1" class="ml-2 text-gray-900 whitespace-nowrap">先生</label>
+                  </div>
+                  
+                  <div class="flex">
+                    <input type="radio" name="hs-radio-vertical-group" class="shrink-0 mt-0.5 border-gray-200 rounded-full text-blue-600 focus:ring-blue-500" id="hs-radio-vertical-group-2">
+                    <label for="hs-radio-vertical-group-2" class="ml-2 text-gray-900 whitespace-nowrap">女士</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 電話 -->
+            <div>
+              <label for="hs-leading-icon" class="block mb-2 md:text-xl">電話<span class="pl-1 text-red-500">*</span></label>
+              <div class="relative">
+                <form>
+                  <div class="flex">
+                      <button id="dropdown-button" data-dropdown-toggle="dropdown" class="z-10 inline-flex items-center flex-shrink-0 px-4 py-3 text-sm font-medium text-center text-gray-500 bg-gray-100 border border-gray-300 rounded-l-lg hover:bg-gray-200 focus:ring-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500 " type="button">+ 886 
+                        <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg>
+                      </button>
+                      <!-- Dropdown -->
+                      <div id="dropdown" class="z-50 hidden w-24 bg-white divide-y divide-gray-100 rounded-lg shadow ">
+                          <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
+                          <li>
+                              <a href="#" class="block px-4 py-2 hover:bg-gray-100 ">+ 886</a>
+                          </li>
+                          <li>
+                              <a href="#" class="block px-4 py-2 hover:bg-gray-100 ">+ 86</a>
+                          </li>
+                          
+                          </ul>
+                      </div>
+                      <!-- Input -->
+                      <div class="relative w-full">
+                          <input type="search" id="search-dropdown" class="z-20 block w-full p-3 text-sm text-gray-900 placeholder-gray-400 border border-l-2 border-gray-300 rounded-r-lg bg-gray-50 border-l-gray-100 focus:ring-blue-500 focus:border-blue-500" placeholder="請輸入電話" required>
+                      </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- 信箱 -->
+            <div>
+              <label for="hs-leading-icon" class="block mb-2 md:text-xl">信箱</label>
+              <div class="relative">
+                <input type="text" id="hs-leading-icon" name="hs-leading-icon" class="block w-full px-4 py-3 text-sm placeholder-gray-400 border-gray-300 rounded-lg pl-11 bg-gray-50 focus:z-10 focus:border-blue-500 focus:ring-blue-500 " placeholder="請輸入信箱">
+                <div class="absolute inset-y-0 left-0 z-20 flex items-center pl-4 text-gray-500 pointer-events-none">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+              </div>
+            </div>
+            <!-- 服務項目 -->
+            <div>
+              <label for="hs-leading-icon" class="block mb-2 md:text-xl">服務項目<span class="pl-1 text-red-500">*</span></label>
+              <div class="flex flex-wrap gap-x-4 md:gap-x-7 gap-y-2 md:gap-y-4 ">
+                <div class="flex">
+                  <input type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 " id="hs-checkbox-group-1">
+                  <label for="hs-checkbox-group-1" class="ml-3 text-gray-900 whitespace-nowrap">海運服務</label>
+                </div>
+              
+                <div class="flex">
+                  <input type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 " id="hs-checkbox-group-2">
+                  <label for="hs-checkbox-group-2" class="ml-3 text-gray-900 whitespace-nowrap">空運服務</label>
+                </div>
+              
+                <div class="flex">
+                  <input type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 " id="hs-checkbox-group-3">
+                  <label for="hs-checkbox-group-3" class="ml-3 text-gray-900 whitespace-nowrap">進出口報關</label>
+                </div>
+                
+                <div class="flex">
+                  <input type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 " id="hs-checkbox-group-4">
+                  <label for="hs-checkbox-group-4" class="ml-3 text-gray-900 whitespace-nowrap">卡車運輸</label>
+                </div>
+
+                <div class="flex">
+                  <input type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 focus:ring-blue-500 " id="hs-checkbox-group-5">
+                  <label for="hs-checkbox-group-5" class="ml-3 text-gray-900 whitespace-nowrap">其他</label>
+                </div>
+              </div>
+            </div>
+            <!-- 您的訊息 -->
+            <div>
+              <label for="hs-leading-icon" class="block mb-2 md:text-xl">您的訊息</label>
+              <div class="relative">
+                <textarea class="block w-full px-4 py-3 text-sm placeholder-gray-400 border-gray-300 rounded-lg bg-gray-50 focus:z-10 focus:border-blue-500 focus:ring-blue-500" rows="5" placeholder="請輸入訊息"></textarea>
+              </div>
+            </div>
+          </div>
+          <!-- BTN -->
+          <div class="flex self-center gap-4">
+            <button type="button" class="items-center justify-center gap-2 px-5 py-2 text-sm font-medium text-blue-500 align-middle transition-all bg-white border border-blue-500 rounded-full shadow-sm w-fit hover:text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600">
+              重新填寫
+            </button>
+            <button type="button" class="items-center justify-center gap-2 px-5 py-2 text-sm font-medium text-white align-middle transition-all bg-blue-500 border border-blue-500 rounded-full shadow-sm w-fit hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 ">
+              確認送出
+            </button>
+          </div>
+        </div>
+
+        <!-- Img -->
+        <div class="hidden md:block shadow-lg rounded-xl overflow-hidden order-2 sm:order-1  h-full bg-cover bg-center bg-no-repeat bg-[url('/img/cover3.jpg')]">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="text-white bg-blue-900 ">
+    <!-- Content -->
+    <div class="section md:py-16">
+      <div class="grid items-center gap-6 md:grid-cols-2">
+        <!-- Logo + link -->
+        <div class="flex flex-col justify-start gap-6 md:gap-12 horizon__center md:items-start">
+          <!-- Logo -->
+          <a class="w-2/3 md:w-5/6" href="../index.html" >
+            <img src="../img/Logo-L.png" class="w-full h-full object-contain brightness-[1000] grayscale" alt="">
+          </a>
+          <!-- link -->
+          <div class="justify-around hidden grid-cols-4 gap-4 md:grid md:gap-8 ">
+            <a href="../dist/about.html" class="text-sm text-white transition-all md:text-base hover:text-blue-300 whitespace-nowrap">關於我們
+            </a>
+            <a href="../dist/news.html" class="text-sm text-white transition-all md:text-base hover:text-blue-300 whitespace-nowrap">最新消息
+            </a>
+            <a href="../dist/service.html" class="text-sm text-white transition-all md:text-base hover:text-blue-300 whitespace-nowrap">服務項目
+            </a>
+            <a href="../dist/taiwan.html" class="text-sm text-white transition-all md:text-base hover:text-blue-300 whitespace-nowrap">聯絡我們
+            </a>
+          </div>
+        </div>
+    
+        <!-- Location + Phone -->
+        <div class="flex flex-col items-start gap-3 md:gap-6 justify-self-center md:justify-self-end">
+          <!-- Location -->
+          <div class="flex gap-3 md:gap-6">
+            <i class="text-xl text-blue-300 fa-solid fa-location-dot md:text-4xl"></i>
+            <div class="flex flex-col gap-2">
+              <p class="hidden text-lg font-semibold text-blue-300 md:block">Our Location</p>
+              <p class="text-white">
+                台北市中山區南京東路二段137號11樓
+              </p>
+            </div>
+          </div>
+          <!-- Phone -->
+          <div class="flex gap-3 md:gap-6">
+            <i class="text-xl text-blue-300 fa-solid fa-phone md:text-4xl"></i>
+            <div class="flex flex-col gap-2">
+              <p class="hidden text-lg font-semibold text-blue-300 md:block">Our Phone</p>
+              <a class="text-white no-underline" href="tel:+886-2-2500-7189">886-2-2500-7189</a>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+
+  
+    <div class="px-4 py-4 text-xs text-center border-t border-white horizon__center md:py-8 md:text-sm">
+      <p>
+        © 2023 第一郵捷國際物流股份有限公司&nbsp;  
+      </p>
+      <p class="hidden sm:block">
+        - All Rights Reserved
+      </p>
+    </div>
+  </footer>
+
+ <!-- To Top BTN -->
+ <button class="fixed hidden text-white transition-all bg-blue-300 border-2 border-white rounded-full shadow-md opacity-0 right-4 bottom-4 xs:right-8 xs:bottom-8 hover:bg-blue-400 duration-600 z-100" id="backToTopBtn">
+    <div class="px-4 py-3 text-sm xs:text-base">
+      <i class="w-4 h-4 fa-solid fa-arrow-up"></i>
+    </div>
+  </button>
+     
+
+  <!-- jQuery main -->
+  <script src="../js/jquery-3.6.3.min.js"></script>
+  <script src="../js/all.js"></script>
+
+  <!-- Preline -->
+  <script src="../node_modules/preline/dist/preline.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+  <!-- Swiper -->
+  <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+    
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+</body>
+</html>
