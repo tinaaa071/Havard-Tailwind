@@ -1808,6 +1808,10 @@ input:checked + .toggle-bg{
   margin-top: 1.25rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -1853,6 +1857,10 @@ input:checked + .toggle-bg{
 
 .aspect-\[4\/5\]{
   aspect-ratio: 4/5;
+}
+
+.aspect-auto{
+  aspect-ratio: auto;
 }
 
 .aspect-square{
@@ -1976,6 +1984,10 @@ input:checked + .toggle-bg{
   width: 1rem;
 }
 
+.w-40{
+  width: 10rem;
+}
+
 .w-5{
   width: 1.25rem;
 }
@@ -2020,6 +2032,10 @@ input:checked + .toggle-bg{
 
 .max-w-7xl{
   max-width: 80rem;
+}
+
+.max-w-5xl{
+  max-width: 64rem;
 }
 
 .flex-1{
@@ -2499,6 +2515,11 @@ input:checked + .toggle-bg{
   background-color: rgb(225 239 254 / 0.7);
 }
 
+.bg-blue-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(195 221 253 / var(--tw-bg-opacity));
+}
+
 .bg-blue-300{
   --tw-bg-opacity: 1;
   background-color: rgb(164 202 254 / var(--tw-bg-opacity));
@@ -2613,10 +2634,6 @@ input:checked + .toggle-bg{
 
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1613501968896-6513b028274e\?q\=80\&w\=2532\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\]{
   background-image: url('https://images.unsplash.com/photo-1613501968896-6513b028274e?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-}
-
-.bg-\[url\(\'https\:\/\/plus\.unsplash\.com\/premium_photo-1679830513869-cd3648acb1db\?ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\&auto\=format\&fit\=crop\&w\=2454\&q\=80\'\)\]{
-  background-image: url('https://plus.unsplash.com/premium_photo-1679830513869-cd3648acb1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2454&q=80');
 }
 
 .bg-\[url\(\'img\/import-bg\.png\'\)\]{
@@ -2737,6 +2754,11 @@ input:checked + .toggle-bg{
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-1{
@@ -2860,6 +2882,10 @@ input:checked + .toggle-bg{
 
 .leading-9{
   line-height: 2.25rem;
+}
+
+.tracking-wider{
+  letter-spacing: 0.05em;
 }
 
 .text-black{
@@ -3947,6 +3973,10 @@ html {
     margin-top: 0px;
   }
 
+  .md\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -4096,6 +4126,11 @@ html {
     padding-bottom: 2rem;
   }
 
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:pb-10{
     padding-bottom: 2.5rem;
   }
@@ -4215,6 +4250,16 @@ html {
   .lg\:py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .lg\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .lg\:text-4xl{
