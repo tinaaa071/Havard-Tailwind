@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 
 /*
-! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -482,11 +482,6 @@ input::placeholder,textarea::placeholder{
 
 ::-webkit-date-and-time-value{
   min-height: 1.5em;
-  text-align: inherit;
-}
-
-::-webkit-datetime-edit{
-  display: inline-flex;
 }
 
 ::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{
@@ -958,8 +953,10 @@ input[type=file]::file-selector-button{
   padding-bottom: 0.625rem;
   padding-left: 2rem;
   padding-right: 1rem;
-  margin-inline-start: -1rem;
-  margin-inline-end: 1rem;
+  -webkit-margin-start: -1rem;
+          margin-inline-start: -1rem;
+  -webkit-margin-end: 1rem;
+          margin-inline-end: 1rem;
 }
 
 input[type=file]::file-selector-button:hover{
@@ -1309,10 +1306,6 @@ input:checked + .toggle-bg{
   bottom: 60px;
 }
 
-.bottom-full{
-  bottom: 100%;
-}
-
 .left-0{
   left: 0px;
 }
@@ -1323,10 +1316,6 @@ input:checked + .toggle-bg{
 
 .top-0{
   top: 0px;
-}
-
-.top-full{
-  top: 100%;
 }
 
 .z-10{
@@ -1349,14 +1338,6 @@ input:checked + .toggle-bg{
   z-index: 50;
 }
 
-.z-\[1\]{
-  z-index: 1;
-}
-
-.z-\[60\]{
-  z-index: 60;
-}
-
 .z-\[80\]{
   z-index: 80;
 }
@@ -1365,19 +1346,9 @@ input:checked + .toggle-bg{
   margin: 0.75rem;
 }
 
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .mb-1{
@@ -1523,10 +1494,6 @@ input:checked + .toggle-bg{
 
 .w-8{
   width: 2rem;
-}
-
-.w-\[calc\(100\%-2rem\)\]{
-  width: calc(100% - 2rem);
 }
 
 .w-full{
@@ -1745,12 +1712,6 @@ input:checked + .toggle-bg{
   overflow-x: hidden;
 }
 
-.truncate{
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .whitespace-nowrap{
   white-space: nowrap;
 }
@@ -1898,11 +1859,6 @@ input:checked + .toggle-bg{
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.bg-green-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(188 240 218 / var(--tw-bg-opacity));
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1943,11 +1899,6 @@ input:checked + .toggle-bg{
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .px-4{
@@ -2031,14 +1982,6 @@ input:checked + .toggle-bg{
 
 .font-semibold{
   font-weight: 600;
-}
-
-.uppercase{
-  text-transform: uppercase;
-}
-
-.lowercase{
-  text-transform: lowercase;
 }
 
 .leading-6{
@@ -2302,19 +2245,9 @@ html {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-300:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:text-black:hover{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-blue-500:hover{
@@ -2494,11 +2427,6 @@ html {
 
 :is(.dark .dark\:bg-gray-800\/50){
   background-color: rgb(31 41 55 / 0.5);
-}
-
-:is(.dark .dark\:bg-slate-900){
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:bg-opacity-80){
