@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="font-medium">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -41,11 +41,11 @@
             <div class="flex flex-col items-center py-4 mt-5 gap-y-4 gap-x-0 md:flex-row md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
   
               <!-- 表一 -->
-              <a class="text-white hover:text-white nav__BTN" href="#">表一</a>
+              <a class="nav__BTN" href="../index.html">表一</a>
               <!-- 表二 -->
-              <a class="nav__BTN" href="dist/form2.html">表二</a>
+              <a class="text-white nav__BTN" href="#">表二</a>
               <!-- 表三 -->
-              <a class="nav__BTN" href="dist/form3.html">表三</a>
+              <a class="nav__BTN" href="../dist/form3.html">表三</a>
   
             </div>
           </div>
@@ -60,395 +60,653 @@
           </h1>
           
           <div class="flex flex-col gap-6 md:gap-10">
-            <!-- 說明 -->
-            <div class="p-4 tracking-wider text-gray-500 bg-gray-200 md:px-8 rounded-xl">
-              <h2>
-                親愛的同仁您好:
-                <br/>
-                此「過勞量表」是勞動部針對過勞壓力反應編製；可協助在短時間內瞭解工作壓力引起的過勞反應或過勞傾向。對於您所提供的資料，將只用於公司醫務室健康管理分析使用，而且絕對保密，請安心填寫，謝謝!
-              </h2>
-            </div>
   
-            <!-- 個人疲勞 -->
-            <div>
-              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">個人疲勞</h3>
-              <div class="flex flex-col gap-6">
-                <ol class="space-y-6 list-decimal list-inside">
-                  <!-- 問題一 -->
-                  <li class="md:text-lg">
-                    你常覺得疲勞嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
-                  </li>
-                  <!-- 問題二 -->
-                  <li class="md:text-lg">
-                    你常覺得身體上體力透支嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
-                  </li>
-                  <!-- 問題三 -->
-                  <li class="md:text-lg">
-                    你常覺得情緒上心力交瘁嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
-                  </li>
-                  <!-- 問題四 -->
-                  <li class="md:text-lg">
-                    你常會覺得，「我快要撐不下去了」嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
-                  </li>
-                  <!-- 問題五 -->
-                  <li class="md:text-lg">
-                    你常覺得精疲力竭嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
-                  </li>
-                  <!-- 問題六 -->
-                  <li class="md:text-lg">
-                    你常常覺得虛弱，好像快要生病了嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
-                  </li>
-                </ol>
-              </div>
+            <!-- 問卷 -->
+            <div class="flex flex-col gap-6">
+              <ol class="space-y-6 list-decimal list-inside">
+                <!-- 問題一 -->
+                <li class="md:text-lg">
+                  您平常使用電腦、滑鼠慣用手為?
+                  <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >左手</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >右手</label>
+                      </div>
+                      
+                  </div>
+                </li>
+                <!-- 問題二 -->
+                <li class="md:text-lg">
+                  您在過去的 1 年內，身體是否有長達 2 星期以上的疲勞、酸痛、發麻、刺痛等不舒服，或關節活動受到限制?
+                  <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >否</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >是</label>
+                      </div>
+                      
+                  </div>
+                </li>
+                <!-- 問題三 -->
+                <li class="md:text-lg">
+                  下表的身體部位酸痛、不適或影響關節活動之情形持續多久時間?
+                  <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-6 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >1 個月</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >3 個月</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >6 個月</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >1 年</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >3 年</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >3 年以上</label>
+                      </div>
+
+                  </div>
+                </li>
+              </ol>
             </div>
             
-            <!-- 工作疲勞 -->
-            <div>
-              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">工作疲勞</h3>
-              <div class="flex flex-col gap-6">
-                <ol class="space-y-6 list-decimal list-inside">
-                  <!-- 問題一 -->
-                  <li class="md:text-lg">
-                    你的工作會令人情緒上心力交瘁嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
+            <!-- 說明 -->
+            <div class="flex flex-col items-start p-4 bg-gray-100 lg:flex-row md:px-8 rounded-xl">
+              <h3 class="mb-2 mr-4 md:text-lg">填寫說明</h3>
+              <div class="flex flex-col">
+                <ol class="mb-2 space-y-2 md:text-lg">
+                  <li>
+                    0 : 不痛，
+                    <span class="font-light">
+                      關節可以自由活動。
+                    </span>
                   </li>
-                  <!-- 問題二 -->
-                  <li class="md:text-lg">
-                    你的工作會讓你覺得快要累垮了嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
+                  <li>
+                    1 : 微痛，
+                    <span class="font-light">
+                      關節活動到極限會酸痛，可以忽略。
+                    </span>
                   </li>
-                  <!-- 問題三 -->
-                  <li class="md:text-lg">
-                    你的工作會讓你覺得挫折嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
+                  <li>
+                    2 : 中等疼痛，
+                    <span class="font-light">
+                      關節活動超過一半會酸痛，但是可以完成全部活動範圍，可能影響工作。
+                    </span>
                   </li>
-                  <!-- 問題四 -->
-                  <li class="md:text-lg">
-                    工作一整天之後，你覺得精疲力竭嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
+                  <li>
+                    3 : 劇痛，
+                    <span class="font-light">
+                      關節活動只有正常人的一半，會影響工作。
+                    </span>
                   </li>
-                  <!-- 問題五 -->
-                  <li class="md:text-lg">
-                    上班之前只要想到又要工作一整天，你就覺得沒力嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
+                  <li>
+                    4 : 非常劇痛，
+                    <span class="font-light">
+                      關節活動只有正常人的 1/4，影響自主活動能力。
+                    </span>
                   </li>
-                  <!-- 問題六 -->
-                  <li class="md:text-lg">
-                    上班時你會覺得每一刻都很難熬嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
-                  </li>
-                  <!-- 問題七 -->
-                  <li class="md:text-lg">
-                    不工作的時候，你有足夠的精力陪朋友或家人嗎?
-                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
-  
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >總是</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >常常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >有時候</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >不常</label>
-                        </div>
-                        <div class="flex items-center">
-                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
-                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
-                        </div>
-  
-                    </div>
+                  <li>
+                    5 : 極度劇痛，
+                    <span class="font-light">
+                      身體完全無法自主活動。
+                    </span>
                   </li>
                 </ol>
+              </p>
               </div>
+            </div>
+
+            <!-- 症狀圖表 -->
+            <div>
+              <img src="../img/body.png" alt="" class="mx-auto mb-8 h-[32rem] aspect-auto">
+              
+              <!-- 表格 -->
+              <table class="w-full overflow-hidden bg-gray-100 table-auto rounded-2xl">
+                <thead class="bg-blue-100 ">
+                  <tr class="border-gray-200 ">
+                    <th class="p-5"></th>
+                    <th class="p-5">不痛 0</th>
+                    <th class="p-5">微痛 1</th>
+                    <th class="p-5">中等疼痛 2</th>
+                    <th class="p-5">劇痛 3</th>
+                    <th class="p-5">非常劇痛 4</th>
+                    <th class="p-5">極度劇痛 5</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- 頸 -->
+                  <tr class="border-gray-200 ">
+                    <td class="p-5 text-center bg-blue-100">頸</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q1" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q1" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q1" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q1" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q1" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q1" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 左肩 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">左肩</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 右肩 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">右肩</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 左手肘/左前臂 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">左手肘/左前臂</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 右手肘/右前臂 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">右手肘/右前臂</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 左手/左手腕 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">左手/左手腕</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 右手/右手腕 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">右手/右手腕</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 上背 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">上背</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 下背 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">下背</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 左臀/左大腿 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">左臀/左大腿</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 右臀/右大腿 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">右臀/右大腿</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 左膝 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">左膝</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 右膝 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">右膝</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 左腳/左腳踝 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">左腳/左腳踝</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 右腳/右腳踝 -->
+                  <tr>
+                    <td class="p-5 text-center bg-blue-100">右腳/右腳踝</td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="1">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="2">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="3">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="4">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="5">
+                      </div>
+                    </td>
+                    <td class="px-4 py-2 ">
+                      <div class="flex justify-center">
+                        <input type="radio" name="q2" value="6">
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
   
             <!-- 勾選聲明 -->
@@ -465,7 +723,7 @@
   
             <!-- 彈出視窗 -->
             <div id="hs-vertically-centered-modal" class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
-              <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all m-3 mx-auto min-h-[calc(100%-3.5rem)] flex items-center vertical__center">
+              <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all m-3 mx-auto min-h-[calc(100%-3.5rem)] flex items-center vertical__center max-w-lg">
                 <div class="flex flex-col overflow-hidden bg-white rounded-3xl">
                   <!-- 表頭 -->
                   <div class="text-blue-500 bg-blue-200">
@@ -522,12 +780,12 @@
     </section>
   
     <!-- jQuery main -->
-    <script src="js/jquery-3.6.3.min.js"></script>
-    <script src="js/all.js"></script>
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/all.js"></script>
   
     <!-- Preline -->
-    <script src="node_modules/preline/dist/preline.js"></script>
-    <script src="node_modules/flowbite/dist//flowbite.min.js"></script>
+    <script src="../node_modules/preline/dist/preline.js"></script>
+    <script src="../node_modules/flowbite/dist//flowbite.min.js"></script>
       
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>

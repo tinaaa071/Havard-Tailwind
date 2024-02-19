@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en" class="font-medium">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>哈佛富盈診所健診表單</title>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="../output.css" />
+
+  </head>
+  <body>
+    <!-- Main + Service Section -->
+    <section id="bg1">
+      <!-- Navbar -->
+      <header class="sticky top-0 z-20 bg-blue-200 shadow-md">
+        <nav class="relative w-full px-4 py-2 mx-auto max-w-7xl md:flex md:items-center md:justify-between lg:px-36" aria-label="Global">
+          <!-- Logo & 漢堡選單 -->
+          <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <a class="" href="javascript:void(0);" aria-label="Brand" class="w-40 aspect-auto">
+              <img src="../img/logo.png"  alt="">
+            </a>
+  
+            <!-- 漢堡選單 -->
+            <div class="md:hidden">
+              <button type="button" class="inline-flex items-center justify-center gap-2 p-2 text-sm font-medium text-gray-700 align-middle transition-all bg-blue-500 border rounded-md shadow-sm hs-collapse-toggle hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+                <svg class="w-4 h-4 hs-collapse-open:hidden" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <svg class="hidden w-4 h-4 hs-collapse-open:block" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          
+          <!-- 按鈕 -->
+          <div id="navbar-collapse-with-animation" class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow md:block">
+            <div class="flex flex-col items-center py-4 mt-5 gap-y-4 gap-x-0 md:flex-row md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
+  
+              <!-- 表一 -->
+              <a class="nav__BTN" href="../index.html">表一</a>
+              <!-- 表二 -->
+              <a class="nav__BTN" href="../dist/form2.html">表二</a>
+              <!-- 表三 -->
+              <a class="text-white nav__BTN" href="#">表三</a>
+  
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+      <!-- Main div -->
+      <section class="h-full">
+        <div class="container max-w-5xl px-4 py-6 mx-auto sm:px-6 lg:px-8 lg:py-10">
+          <h1 class="mb-8 text-xl text-center md:mb-10 md:text-3xl">
+            健康檢查調查表
+          </h1>
+          
+          <div class="flex flex-col gap-6 md:gap-10">
+            <!-- 基本資料 -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">基本資料</h3>
+              <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-6 md:text-lg">
+                <!-- 姓名 -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">姓名</label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="請輸入姓名">
+                </div>
+                <!-- 性別 -->
+                <div class="sm:col-span-2">
+                  性別
+                  <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >男</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >女</label>
+                      </div>
+                      
+                  </div>
+                </div>
+                <!-- 身分證字號 -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">身分證字號</label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="請輸入身分證字號">
+                </div>
+                <!-- 出生日期 -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">出生日期</label>
+                  <div class="flex space-x-4 ">
+                    <div class="flex items-center" v-if="showYear">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        年
+                    </div>
+                    <div class="flex items-center" v-if="showMonth">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        月
+                    </div>
+                    <div class="flex items-center" v-if="showDate">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        日
+                    </div>
+                  </div>
+                </div>
+                <!-- 受僱日期（公司團體專用） -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">受僱日期（公司團體專用）</label>
+                  <div class="flex space-x-4 ">
+                    <div class="flex items-center" v-if="showYear">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        年
+                    </div>
+                    <div class="flex items-center" v-if="showMonth">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        月
+                    </div>
+                    <div class="flex items-center" v-if="showDate">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        日
+                    </div>
+                  </div>
+                </div>
+                <!-- E-MAIL -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">E-MAIL</label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="請輸入E-MAIL">
+                </div>
+                <!-- 電話（公） -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">電話（公）</label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="請輸入電話">
+                </div>
+                <!-- 電話（家） -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">電話（家）</label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="請輸入電話">
+                </div>
+                <!-- 電話（行動） -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">電話（行動）</label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="請輸入電話">
+                </div>
+                <!-- 通訊地址 -->
+                <div class="sm:col-span-2">
+                  <label for="input-label" class="block mb-2 ">通訊地址</label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="請輸入通訊地址">
+                </div>
+              </div>
+            </div>
+            
+            <!-- 作業經歷（公司團體專用） -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">作業經歷（公司團體專用）</h3>
+              <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-6 md:text-lg">
+                <!-- 曾經從事的（前一份工作） -->
+                <div class="sm:col-span-2">
+                  <label for="input-label" class="block mb-2 ">
+                    1. 曾經從事的（前一份工作）
+                  </label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="">
+                </div>
+                <!-- 起始日期 -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">起始日期</label>
+                  <div class="flex space-x-4 ">
+                    <div class="flex items-center" v-if="showYear">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        年
+                    </div>
+                    <div class="flex items-center" v-if="showMonth">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        月
+                    </div>
+                    <div class="flex items-center" v-if="showDate">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        日
+                    </div>
+                  </div>
+                </div>
+                <!-- 截止日期 -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">截止日期</label>
+                  <div class="flex space-x-4 ">
+                    <div class="flex items-center" v-if="showYear">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        年
+                    </div>
+                    <div class="flex items-center" v-if="showMonth">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        月
+                    </div>
+                    <div class="flex items-center" v-if="showDate">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        日
+                    </div>
+                  </div>
+                </div>
+                <!-- 目前從事 -->
+                <div class="sm:col-span-2">
+                  <label for="input-label" class="block mb-2 ">
+                    2. 目前從事
+                  </label>
+                  <input type="email" id="input-label" class="block w-full px-4 py-3 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="">
+                </div>
+                <!-- 起始日期 -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">起始日期</label>
+                  <div class="flex space-x-4 ">
+                    <div class="flex items-center" v-if="showYear">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        年
+                    </div>
+                    <div class="flex items-center" v-if="showMonth">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        月
+                    </div>
+                    <div class="flex items-center" v-if="showDate">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        日
+                    </div>
+                  </div>
+                </div>
+                <!-- 截止日期 -->
+                <div>
+                  <label for="input-label" class="block mb-2 ">截止日期</label>
+                  <div class="flex space-x-4 ">
+                    <div class="flex items-center" v-if="showYear">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        年
+                    </div>
+                    <div class="flex items-center" v-if="showMonth">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        月
+                    </div>
+                    <div class="flex items-center" v-if="showDate">
+                      <input type="email" id="input-label" class="block w-full px-4 py-3 mr-1 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        日
+                    </div>
+                  </div>
+                </div>
+                <!-- 是否需輪班 -->
+                <div class="sm:col-span-2">
+                  是否需輪班
+                  <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >兩班制</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >三班制</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >四班制</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >否</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >其他</label>
+                        <input type="email" id="input-label" class="block w-full px-4 py-3 ml-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                      </div>
+
+                  </div>
+                </div>
+                <!-- 檢查原因 -->
+                <div class="sm:col-span-2">
+                  3. 檢查原因
+                  <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >新進員工(受雇時)</label>
+                      </div>
+                      <div class="flex items-center">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                        <label for="hs-radio-group-1" >定期檢查</label>
+                      </div>
+                      
+                  </div>
+                </div>
+                <!-- 檢查日過去1個月 -->
+                <div class="flex items-center sm:col-span-2">
+                  4. 檢查日過去1個月，平均每週上班總工時（含加班）為:
+                  <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                  小時
+                </div>
+                <!-- 檢查日過去6個月 -->
+                <div class="flex items-center sm:col-span-2">
+                  5. 檢查日過去6個月，平均每週上班總工時（含加班）為:
+                  <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                  小時
+                </div>
+                <!-- 工作期間平均每天睡眠 -->
+                <div class="flex items-center sm:col-span-2">
+                  6. 工作期間平均每天睡眠:
+                  <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                  小時
+                </div>
+              </div>
+            </div>
+
+            <!-- 既往病史 -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">一、既往病史</h3>
+              <div class="md:text-lg">
+                <div>
+                  <label for="input-label" class="block mb-2 ">您是否曾患有下列慢性疾病?</label>
+                  <div class="flex flex-wrap gap-4">
+                    <!-- 高血壓 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">高血壓</label>
+                      </div>
+                    </div>
+                    <!-- 糖尿病 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">糖尿病</label>
+                      </div>
+                    </div>
+                    <!-- 心臟病 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">心臟病</label>
+                      </div>
+                    </div>
+                    <!-- 心臟節律器 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">心臟節律器</label>
+                      </div>
+                    </div>
+                    <!-- 白內障 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">白內障</label>
+                      </div>
+                    </div>
+                    <!-- 中風 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">中風</label>
+                      </div>
+                    </div>
+                    <!-- 癲癇 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">癲癇</label>
+                      </div>
+                    </div>
+                    <!-- 氣喘 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">氣喘</label>
+                      </div>
+                    </div>
+                    <!-- 慢性氣管炎、肺氣腫 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">慢性氣管炎、肺氣腫</label>
+                      </div>
+                    </div>
+                    <!-- 肺結核 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">肺結核</label>
+                      </div>
+                    </div>
+                    <!-- 甲狀腺疾病 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">甲狀腺疾病</label>
+                      </div>
+                    </div>
+                    <!-- 腎臟病 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">腎臟病</label>
+                      </div>
+                    </div>
+                    <!-- 肝病 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">肝病</label>
+                      </div>
+                    </div>
+                    <!-- 貧血 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">貧血</label>
+                      </div>
+                    </div>
+                    <!-- 中耳炎 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">中耳炎</label>
+                      </div>
+                    </div>
+                    <!-- 聽力障礙 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">聽力障礙</label>
+                      </div>
+                    </div>
+                    <!-- 消化性潰瘍、胃炎 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">消化性潰瘍、胃炎</label>
+                      </div>
+                    </div>
+                    <!-- 逆流性食道炎 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">逆流性食道炎</label>
+                      </div>
+                    </div>
+                    <!-- 子宮肌瘤 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">子宮肌瘤</label>
+                      </div>
+                    </div>
+                    <!-- 卵巢囊腫 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">卵巢囊腫</label>
+                      </div>
+                    </div>
+                    <!-- 巧克力囊腫 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">巧克力囊腫</label>
+                      </div>
+                    </div>
+                    <!-- 子宮全切除 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">子宮全切除</label>
+                      </div>
+                    </div>
+                    <!-- 癌症 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">癌症</label>
+                      </div>
+                      <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                    </div>
+                    <!-- 骨折 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">骨折</label>
+                      </div>
+                      <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                    </div>
+                    <!-- 手術開刀 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">手術開刀</label>
+                      </div>
+                      <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                    </div>
+                    <!-- 其他慢性病 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">其他慢性病</label>
+                      </div>
+                      <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                    </div>
+                    <!-- 以上皆無 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">以上皆無</label>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <!-- 家族病史 -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">二、家族病史</h3>
+              <div class="md:text-lg">
+                <div class="flex flex-wrap gap-4">
+                  <!-- 高血壓 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">高血壓</label>
+                    </div>
+                  </div>
+                  <!-- 高血脂 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">高血脂</label>
+                    </div>
+                  </div>
+                  <!-- 心血管疾病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">心血管疾病</label>
+                    </div>
+                  </div>
+                  <!-- 糖尿病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">糖尿病</label>
+                    </div>
+                  </div>
+                  <!-- 腦血管疾病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">腦血管疾病</label>
+                    </div>
+                  </div>
+                  <!-- 癲癇 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">癲癇</label>
+                    </div>
+                  </div>
+                  <!-- 氣喘 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">氣喘</label>
+                    </div>
+                  </div>
+                  <!-- 腎臟病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">腎臟病</label>
+                    </div>
+                  </div>
+                  <!-- 貧血 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">貧血</label>
+                    </div>
+                  </div>
+                  <!-- 肝病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">肝病</label>
+                    </div>
+                  </div>
+                  <!-- 甲狀腺疾病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">甲狀腺疾病</label>
+                    </div>
+                  </div>
+                  <!-- 自體免疫疾病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">自體免疫疾病</label>
+                    </div>
+                    <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                  </div>
+                  <!-- 癌症 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">癌症</label>
+                    </div>
+                    <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                  </div>
+                  <!-- 其他疾病 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">其他疾病</label>
+                    </div>
+                    <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                  </div>
+                  <!-- 以上皆無 -->
+                  <div class="relative flex items-center ">
+                    <div class="flex items-center h-6">
+                      <!-- button -->
+                      <input 
+                      type="checkbox" v-bind="$attrs"
+                      id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                    </div>
+                    <!-- label -->
+                    <div class="ml-3 leading-6 md:text-lg">
+                      <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">以上皆無</label>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+
+            <!-- 自覺症狀 -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">三、自覺症狀</h3>
+              <div class="md:text-lg">
+                <div>
+                  <label for="input-label" class="block mb-2 ">您最近三個月是否常有下列症狀?</label>
+                  <div class="flex flex-wrap gap-4">
+                    <!-- 咳嗽 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">咳嗽</label>
+                      </div>
+                    </div>
+                    <!-- 咳痰 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">咳痰</label>
+                      </div>
+                    </div>
+                    <!-- 呼吸困難 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">呼吸困難</label>
+                      </div>
+                    </div>
+                    <!-- 胸痛 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">胸痛</label>
+                      </div>
+                    </div>
+                    <!-- 心悸 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">心悸</label>
+                      </div>
+                    </div>
+                    <!-- 頭暈 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">頭暈</label>
+                      </div>
+                    </div>
+                    <!-- 頭痛 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">頭痛</label>
+                      </div>
+                    </div>
+                    <!-- 耳鳴 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">耳鳴</label>
+                      </div>
+                    </div>
+                    <!-- 倦怠 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">倦怠</label>
+                      </div>
+                    </div>
+                    <!-- 噁心 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">噁心</label>
+                      </div>
+                    </div>
+                    <!-- 腹痛 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">腹痛</label>
+                      </div>
+                    </div>
+                    <!-- 便秘 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">便秘</label>
+                      </div>
+                    </div>
+                    <!-- 腹瀉 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">腹瀉</label>
+                      </div>
+                    </div>
+                    <!-- 血便 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">血便</label>
+                      </div>
+                    </div>
+                    <!-- 上背痛 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">上背痛</label>
+                      </div>
+                    </div>
+                    <!-- 下背痛 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">下背痛</label>
+                      </div>
+                    </div>
+                    <!-- 手腳麻痛 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">手腳麻痛</label>
+                      </div>
+                    </div>
+                    <!-- 關節疼痛 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">關節疼痛</label>
+                      </div>
+                    </div>
+                    <!-- 排尿不適 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">排尿不適</label>
+                      </div>
+                    </div>
+                    <!-- 多尿、頻尿 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">多尿、頻尿</label>
+                      </div>
+                    </div>
+                    <!-- 手腳肌肉無力 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">手腳肌肉無力</label>
+                      </div>
+                    </div>
+                    <!-- 體重減輕3公斤以上 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">體重減輕3公斤以上</label>
+                      </div>
+                    </div>
+                    <!-- 其他症狀 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">其他症狀</label>
+                      </div>
+                      <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                    </div>
+                    <!-- 以上皆無 -->
+                    <div class="relative flex items-center ">
+                      <div class="flex items-center h-6">
+                        <!-- button -->
+                        <input 
+                        type="checkbox" v-bind="$attrs"
+                        id="comments" aria-describedby="comments-description" name="comments" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600 " />
+                      </div>
+                      <!-- label -->
+                      <div class="ml-3 leading-6 md:text-lg">
+                        <label for="comments" class="flex font-medium text-gray-900 md:text-lg whitespace-nowrap">以上皆無</label>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 女性請務必回答 -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">四、女性請務必回答</h3>
+              <div class="flex md:items-center sm:col-span-2 md:text-lg whitespace-nowrap">
+                懷孕：
+                <div class="flex flex-col gap-6 ml-2 md:items-center sm:flex-row">
+                      
+                  <div class="flex gap-6 md:items-center">
+                    <div class="">
+                      <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                    <label for="hs-radio-group-1" >否</label>
+                    </div>
+                    <div class="inline-flex md:items-center">
+                      <div class="">
+                        <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                      <label for="hs-radio-group-1" >是，</label>
+                      </div>
+                      <div class="flex flex-wrap gap-4">
+                        <div class="flex md:items-center whitespace-nowrap">
+                          懷孕次數
+                          <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        </div>
+                        <div class="flex md:items-center whitespace-nowrap">
+                          生產次數
+                          <input type="email" id="input-label" class="block px-4 py-3 ml-2 mr-2 text-sm border-gray-200 rounded-lg focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+  
+            <!-- 勾選聲明 -->
+            <div class="flex items-center p-4 bg-blue-100 md:px-8 rounded-xl">
+              <input id="comments" aria-describedby="comments-description" name="comments" type="checkbox" class="w-4 h-4 mr-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600" />
+              <p>
+                  我已明確了解
+                  <button type="button" class="text-blue-400 cursor-pointer hover:text-blue-500" data-hs-overlay="#hs-vertically-centered-modal">
+                    《富盈診所資料保護政策及顧客之個人資料保護權益》
+                  </button>
+                  事項，並且同意遵守所有規定及提供所需之個人資料
+              </p>
+            </div>
+  
+            <!-- 彈出視窗 -->
+            <div id="hs-vertically-centered-modal" class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
+              <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all m-3 mx-auto min-h-[calc(100%-3.5rem)] flex items-center vertical__center max-w-lg">
+                <div class="flex flex-col overflow-hidden bg-white rounded-3xl">
+                  <!-- 表頭 -->
+                  <div class="text-blue-500 bg-blue-200">
+                    <div class="flex items-center justify-between px-6 py-4">
+                      <p>
+                        《富盈診所資料保護政策及顧客之個人資料保護權益》
+                      </p>
+                      <button type="button" class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-sm text-gray-500 transition-all rounded-md hs-dropdown-toggle hover:text-gray-400 " data-hs-overlay="#hs-vertically-centered-modal">
+                        <span class="sr-only">Close</span>
+                        <i class="text-lg fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="p-6">
+                    <p>
+                      本同意書說明富盈診所，將如何處理健康檢查之個人資料。
+                      <br>
+                      <br>
+                      本診所為提供健康管理服務，茲依據個人資料保護法第8條第1項規定，告知您以下事項：
+                      <br>
+                      <br>
+                      蒐集個人資料之目的
+                      <br>
+                      1. 本診所執行目的為『健康檢查』，需將您的個人資料：姓名、身分證(居留證)字號、出生年月日等，提供給本健康檢查部門。
+                      <br>
+                      <br>
+                      2. 當您的個人資料使用方式與當初本公司蒐集的目的不同時，我們會在使用前先徵求您的書面同意。
+                      <br>
+                      <br>
+                      3. 本診所蒐集之個人資料，不會移轉給第三方處理使用，除非獲得您的授權或個人資料保護法及相關法令另有規定外。 
+                      當您簽署本同意書時，即表示您已閱讀、瞭解並同意本同意書之所有內容。
+                  </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+  
+            <!-- 按鈕 -->
+            <div class="flex items-center justify-center gap-4">
+              <button type="button" class="px-4 py-2 text-blue-400 transition-colors bg-white border-2 border-blue-400 rounded-lg hover:bg-blue-500 hover:text-white hover:border-blue-500">
+                取消
+              </button>
+              <button type="button" class="px-4 py-2 text-white transition-colors bg-blue-400 border-2 border-transparent rounded-lg hover:bg-blue-500">
+                送出
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+  
+    <!-- jQuery main -->
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/all.js"></script>
+  
+    <!-- Preline -->
+    <script src="../node_modules/preline/dist/preline.js"></script>
+    <script src="../node_modules/flowbite/dist//flowbite.min.js"></script>
+      
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
+  
+    </script>
+  </body>
+</html>
