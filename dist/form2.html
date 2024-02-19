@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>哈佛富盈診所健診表單</title>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="../output.css" />
+
+  </head>
+  <body>
+    <!-- Main + Service Section -->
+    <section id="bg1">
+      <!-- Navbar -->
+      <header class="sticky top-0 z-20 bg-blue-200 shadow-md">
+        <nav class="relative w-full px-4 py-2 mx-auto max-w-7xl md:flex md:items-center md:justify-between lg:px-36" aria-label="Global">
+          <!-- Logo & 漢堡選單 -->
+          <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <a class="" href="javascript:void(0);" aria-label="Brand" class="w-40 aspect-auto">
+              <img src="../img/logo.png"  alt="">
+            </a>
+  
+            <!-- 漢堡選單 -->
+            <div class="md:hidden">
+              <button type="button" class="inline-flex items-center justify-center gap-2 p-2 text-sm font-medium text-gray-700 align-middle transition-all bg-blue-500 border rounded-md shadow-sm hs-collapse-toggle hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+                <svg class="w-4 h-4 hs-collapse-open:hidden" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <svg class="hidden w-4 h-4 hs-collapse-open:block" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          
+          <!-- 按鈕 -->
+          <div id="navbar-collapse-with-animation" class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow md:block">
+            <div class="flex flex-col items-center py-4 mt-5 gap-y-4 gap-x-0 md:flex-row md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7">
+  
+              <!-- 表一 -->
+              <a class="text-white hover:text-white nav__BTN" href="#">表一</a>
+              <!-- 表二 -->
+              <a class="nav__BTN" href="dist/form2.html">表二</a>
+              <!-- 表三 -->
+              <a class="nav__BTN" href="dist/form3.html">表三</a>
+  
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+      <!-- Main div -->
+      <section class="h-full">
+        <div class="container max-w-5xl px-4 py-6 mx-auto sm:px-6 lg:px-8 lg:py-10">
+          <h1 class="mb-8 text-xl text-center md:mb-10 md:text-3xl">
+            肌肉骨骼症狀調查表
+          </h1>
+          
+          <div class="flex flex-col gap-6 md:gap-10">
+            <!-- 說明 -->
+            <div class="p-4 tracking-wider text-gray-500 bg-gray-200 md:px-8 rounded-xl">
+              <h2>
+                親愛的同仁您好:
+                <br/>
+                此「過勞量表」是勞動部針對過勞壓力反應編製；可協助在短時間內瞭解工作壓力引起的過勞反應或過勞傾向。對於您所提供的資料，將只用於公司醫務室健康管理分析使用，而且絕對保密，請安心填寫，謝謝!
+              </h2>
+            </div>
+  
+            <!-- 個人疲勞 -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">個人疲勞</h3>
+              <div class="flex flex-col gap-6">
+                <ol class="space-y-6 list-decimal list-inside">
+                  <!-- 問題一 -->
+                  <li class="md:text-lg">
+                    你常覺得疲勞嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題二 -->
+                  <li class="md:text-lg">
+                    你常覺得身體上體力透支嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題三 -->
+                  <li class="md:text-lg">
+                    你常覺得情緒上心力交瘁嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題四 -->
+                  <li class="md:text-lg">
+                    你常會覺得，「我快要撐不下去了」嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題五 -->
+                  <li class="md:text-lg">
+                    你常覺得精疲力竭嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題六 -->
+                  <li class="md:text-lg">
+                    你常常覺得虛弱，好像快要生病了嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            
+            <!-- 工作疲勞 -->
+            <div>
+              <h3 class="pl-4 mb-4 text-lg border-l-8 border-black md:text-2xl">工作疲勞</h3>
+              <div class="flex flex-col gap-6">
+                <ol class="space-y-6 list-decimal list-inside">
+                  <!-- 問題一 -->
+                  <li class="md:text-lg">
+                    你的工作會令人情緒上心力交瘁嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題二 -->
+                  <li class="md:text-lg">
+                    你的工作會讓你覺得快要累垮了嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題三 -->
+                  <li class="md:text-lg">
+                    你的工作會讓你覺得挫折嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題四 -->
+                  <li class="md:text-lg">
+                    工作一整天之後，你覺得精疲力竭嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題五 -->
+                  <li class="md:text-lg">
+                    上班之前只要想到又要工作一整天，你就覺得沒力嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題六 -->
+                  <li class="md:text-lg">
+                    上班時你會覺得每一刻都很難熬嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                  <!-- 問題七 -->
+                  <li class="md:text-lg">
+                    不工作的時候，你有足夠的精力陪朋友或家人嗎?
+                    <div class="grid items-center grid-cols-3 mt-2 md:text-lg whitespace-nowrap md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-4 md:gap-x-12 h-fit">
+  
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >總是</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >常常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >有時候</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >不常</label>
+                        </div>
+                        <div class="flex items-center">
+                          <input type="radio" name="hs-radio-group" class="w-4 h-4 mr-3 text-blue-600 border-gray-300 rounded-full focus:ring-blue-600" id="hs-radio-group-1" >
+                          <label for="hs-radio-group-1" >從未或幾乎從未</label>
+                        </div>
+  
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+  
+            <!-- 勾選聲明 -->
+            <div class="flex items-center p-4 bg-blue-100 md:px-8 rounded-xl">
+              <input id="comments" aria-describedby="comments-description" name="comments" type="checkbox" class="w-4 h-4 mr-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600" />
+              <p>
+                  我已明確了解
+                  <button type="button" class="text-blue-400 cursor-pointer hover:text-blue-500" data-hs-overlay="#hs-vertically-centered-modal">
+                    《富盈診所資料保護政策及顧客之個人資料保護權益》
+                  </button>
+                  事項，並且同意遵守所有規定及提供所需之個人資料
+              </p>
+            </div>
+  
+            <!-- 彈出視窗 -->
+            <div id="hs-vertically-centered-modal" class="hs-overlay hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto">
+              <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all m-3 mx-auto min-h-[calc(100%-3.5rem)] flex items-center vertical__center">
+                <div class="flex flex-col overflow-hidden bg-white rounded-3xl">
+                  <!-- 表頭 -->
+                  <div class="text-blue-500 bg-blue-200">
+                    <div class="flex items-center justify-between px-6 py-4">
+                      <p>
+                        《富盈診所資料保護政策及顧客之個人資料保護權益》
+                      </p>
+                      <button type="button" class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-sm text-gray-500 transition-all rounded-md hs-dropdown-toggle hover:text-gray-400 " data-hs-overlay="#hs-vertically-centered-modal">
+                        <span class="sr-only">Close</span>
+                        <i class="text-lg fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="p-6">
+                    <p>
+                      本同意書說明富盈診所，將如何處理健康檢查之個人資料。
+                      <br>
+                      <br>
+                      本診所為提供健康管理服務，茲依據個人資料保護法第8條第1項規定，告知您以下事項：
+                      <br>
+                      <br>
+                      蒐集個人資料之目的
+                      <br>
+                      1. 本診所執行目的為『健康檢查』，需將您的個人資料：姓名、身分證(居留證)字號、出生年月日等，提供給本健康檢查部門。
+                      <br>
+                      <br>
+                      2. 當您的個人資料使用方式與當初本公司蒐集的目的不同時，我們會在使用前先徵求您的書面同意。
+                      <br>
+                      <br>
+                      3. 本診所蒐集之個人資料，不會移轉給第三方處理使用，除非獲得您的授權或個人資料保護法及相關法令另有規定外。 
+                      當您簽署本同意書時，即表示您已閱讀、瞭解並同意本同意書之所有內容。
+                  </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+  
+            <!-- 按鈕 -->
+            <div class="flex items-center justify-center gap-4">
+              <button type="button" class="px-4 py-2 text-blue-400 transition-colors bg-white border-2 border-blue-400 rounded-lg hover:bg-blue-500 hover:text-white hover:border-blue-500">
+                取消
+              </button>
+              <button type="button" class="px-4 py-2 text-white transition-colors bg-blue-400 border-2 border-transparent rounded-lg hover:bg-blue-500">
+                送出
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+  
+    <!-- jQuery main -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/all.js"></script>
+  
+    <!-- Preline -->
+    <script src="node_modules/preline/dist/preline.js"></script>
+    <script src="node_modules/flowbite/dist//flowbite.min.js"></script>
+      
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/a8b708c9db.js" crossorigin="anonymous"></script>
+  
+    </script>
+  </body>
+</html>
