@@ -1261,6 +1261,10 @@ input:checked + .toggle-bg{
   border-width: 0;
 }
 
+.pointer-events-none{
+  pointer-events: none;
+}
+
 .visible{
   visibility: visible;
 }
@@ -1353,6 +1357,10 @@ input:checked + .toggle-bg{
   z-index: 60;
 }
 
+.z-\[80\]{
+  z-index: 80;
+}
+
 .m-3{
   margin: 0.75rem;
 }
@@ -1370,11 +1378,6 @@ input:checked + .toggle-bg{
 .my-2{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .mb-1{
@@ -1427,10 +1430,6 @@ input:checked + .toggle-bg{
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .block{
@@ -1636,10 +1635,6 @@ input:checked + .toggle-bg{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1650,10 +1645,6 @@ input:checked + .toggle-bg{
 
 .grid-cols-7{
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.flex-row{
-  flex-direction: row;
 }
 
 .flex-col{
@@ -2564,32 +2555,12 @@ html {
     grid-column: span 2 / span 2;
   }
 
-  .sm\:mb-0{
-    margin-bottom: 0px;
-  }
-
-  .sm\:block{
-    display: block;
-  }
-
-  .sm\:grid{
-    display: grid;
-  }
-
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row{
     flex-direction: row;
-  }
-
-  .sm\:flex-col{
-    flex-direction: column;
-  }
-
-  .sm\:items-center{
-    align-items: center;
   }
 
   .sm\:gap-x-8{
